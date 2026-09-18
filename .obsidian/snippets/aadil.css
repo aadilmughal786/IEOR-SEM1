@@ -1,0 +1,248 @@
+.theme-dark {
+  --text-accent: #0fb6d6;
+}
+
+/* -------------------------------[ Image card ]-------------------------------------- */
+
+img {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-top: 6px solid var(--text-accent);
+}
+
+/* ----------------------------[ LISTING STYLES (ul, li, ol) ]----------------------------------------- */
+
+/* Style for unordered list bullets in live editor mode */
+.cm-s-obsidian span.cm-formatting-list {
+  color: var(--text-accent);
+}
+
+/* Style for ordered list numbers in preview mode */
+.markdown-preview-view ol > li::marker {
+  color: var(--text-accent);
+}
+
+/* -------------------------------[ hr styles ]-------------------------------------- */
+
+/** hr styles -- PREVIEW MODE */
+.cm-line hr,
+.markdown-preview-view hr {
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  border: none;
+  height: 0;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(
+    to right,
+    transparent,
+    var(--text-accent),
+    transparent
+  );
+}
+
+.cm-line hr::after,
+.markdown-preview-view hr::after {
+  content: "🕊️";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  padding: 0.5rem;
+  color: var(--text-accent);
+  background-color: var(--background-primary);
+}
+
+.callout-content hr::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  background-color: transparent;
+}
+
+.callout-content hr {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  border: none;
+  height: 0;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(
+    to right,
+    transparent,
+    #0fb5d681,
+    transparent
+  );
+}
+
+/* -------------------------------[ STRONG/BOLD STYLES ]-------------------------------------- */
+
+.cm-strong,
+strong {
+  padding: 0;
+  color: var(--text-accent) !important;
+  font-style: italic;
+}
+
+/* -------------------------------[ ITALIC STYLES ]-------------------------------------- */
+
+.cm-em,
+em {
+  color: var(--text-accent) !important;
+}
+
+/* -------------------------------[ CODE STYLING ]-------------------------------------- */
+
+/** inline code */
+.cm-s-obsidian
+  span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(
+    .obsidian-search-match-highlight
+  ),
+.markdown-preview-view code {
+  overflow-wrap: break-word;
+  background-color: rgba(14, 210, 247, 0.05);
+  word-wrap: break-word;
+  padding: 0 5px;
+  border-radius: 0.3rem;
+  color: var(--text-accent) !important;
+}
+
+/* -------------------------------[ HEADING STYLES ]-------------------------------------- */
+
+.HyperMD-header.HyperMD-header-2,
+.HyperMD-header.HyperMD-header-3,
+.HyperMD-header.HyperMD-header-4,
+.HyperMD-header.HyperMD-header-5,
+.HyperMD-header.HyperMD-header-6 {
+  border-bottom: 1px solid;
+  border-width: 1px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    var(--text-accent),
+    #100e1700,
+    #100e1700,
+    #100e1700
+  );
+}
+
+.HyperMD-header {
+  padding: 20px;
+}
+
+.markdown-preview-section h1,
+.cm-header-1 {
+  font-size: 36px;
+}
+
+.markdown-preview-section h2,
+.cm-header-2 {
+  font-size: 32px;
+}
+
+.markdown-preview-section h3,
+.cm-header-3 {
+  font-size: 28px;
+}
+
+.markdown-preview-section h4,
+.cm-header-4 {
+  font-size: 24px;
+}
+
+.markdown-preview-section h5,
+.cm-header-5 {
+  font-size: 20px;
+}
+
+.markdown-preview-section h6,
+.cm-header-6 {
+  font-size: 20px;
+}
+
+/** headings */
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  /* padding-top: 1.25rem; */
+  margin: 45px 0 20px 0;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-width: 35%;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    var(--text-accent),
+    #100e1700,
+    #100e1700,
+    #100e1700
+  );
+}
+
+.view-header-icon {
+  color: var(--text-accent);
+}
+
+/* -------------------------------[ Tables ]-------------------------------------- */
+
+/* Style table borders within [!tip] blocks in preview mode */
+.markdown-preview-view .callout[data-callout="tip"] table,
+.markdown-preview-view .callout[data-callout="tip"] table th,
+.markdown-preview-view .callout[data-callout="tip"] table td {
+  border: 1px solid var(--text-accent) !important;
+}
+
+.markdown-preview-view .callout[data-callout="tip"] table th {
+  color: var(--text-accent);
+  font-weight: bolder;
+}
+
+/* Style table borders within [!tip] blocks in live mode */
+.cm-s-obsidian .callout[data-callout="tip"] table,
+.cm-s-obsidian .callout[data-callout="tip"] table th,
+.cm-s-obsidian .callout[data-callout="tip"] table td {
+  border: 1px solid var(--text-accent) !important;
+}
+
+.cm-s-obsidian .callout[data-callout="tip"] table th {
+  color: var(--text-accent);
+  font-weight: bold;
+}
+
+.markdown-preview-view table th {
+  color: var(--text-accent);
+  font-weight: bolder;
+}
+
+.cm-s-obsidian table th {
+  color: var(--text-accent);
+  font-weight: bold;
+}
+
+/* -------------------------------[ Summary ]-------------------------------------- */
+
+/* Collapsible section CSS */
+.details {
+  background-color: #0fb6d625;
+  padding: 8px;
+  padding-left: 16px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+
+.summary {
+  color: #1ee6de;
+  cursor: pointer;
+  font-weight: 500;
+}

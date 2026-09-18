@@ -1,0 +1,22 @@
+{
+  "cascadeColors": true,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "NKLhLIaYXL8td8Nx-Gfk3",
+      "name": "Perfect",
+      "value": "#8ba63f"
+    },
+    {
+      "id": "KdRAr-9sD_yyIrh6QQWki",
+      "name": "Re-visite",
+      "value": "#df0054"
+    },
+    {
+      "id": "zAGTUFPKM5WvjaDY46bjT",
+      "name": "Key-Takeways",
+      "value": "#48d3e5"
+    }
+  ],
+  "fileColors": []
+}

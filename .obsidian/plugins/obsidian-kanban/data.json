@@ -1,0 +1,5 @@
+{
+  "new-note-template": "Templates/KanBan.md",
+  "move-dates": true,
+  "show-relative-date": true
+}

@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "c7cc0c67ea1c5fc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca0ca5fbb4b8a90b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "194b88a5d106121d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d895460401d88bf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ce54462f7bdc635",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12630355770d3cf8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8767df824610ac78",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fb5e4758866cbf56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "fbe6d6dde4d1fdda",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5
+  },
+  "right": {
+    "id": "f965a766777844b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd47780e18fd3a38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5c439e7fca44119",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "572ff79fa00c4e5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "bf519af3514cdf92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "G4 (17-20) (C, DS, A) /C/7 Array.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 7 Array"
+            }
+          },
+          {
+            "id": "4dda8e13a6cc9d3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false
+    }
+  },
+  "active": "12630355770d3cf8",
+  "lastOpenFiles": [
+    "MCL (IE 507)",
+    "PSP (IE 621)",
+    "SMA (IE 630)",
+    "MOT (IE 609)",
+    "0 Assets/Pasted image 20251021171902.png",
+    "Notes.md",
+    "G2 (10-12) (TOC, CD)/TOC/1 Grammars/5 Parser-Specific Grammars.md",
+    "G2 (10-12) (TOC, CD)/TOC/1 Grammars/4 Unrestricted Grammar.md",
+    "G2 (10-12) (TOC, CD)/TOC/1 Grammars/3 Context-Sensitive Grammar.md",
+    "G2 (10-12) (TOC, CD)/TOC/1 Grammars/2 Context-Free Grammar.md",
+    "G2 (10-12) (TOC, CD)/TOC/1 Grammars/0 Intro.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Blood Relation.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Coding Decoding.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Logical Reasoning.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Ranking System.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Seating Arrangement.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Table Formation.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Analytical Aptitude/Venn diagrams.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Transformation Of Shapes.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Patterns.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Paper folding and cutting.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Direction Sense.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Dice.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Cube.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/0 Intro.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Surface Area and Volume - 3D.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Perimeter and Area - 2D.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Data Interpretation.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Race.md",
+    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Time & Distance.md",
+    "G1 (12-15) (DL, COA)/COA/0 Assets/Pasted image 20251021164712.png",
+    "G1 (12-15) (DL, COA)/COA/0 Assets/Pasted image 20251021164223.png",
+    "0 Assets/Pasted image 20251021163314.png",
+    "G4 (17-20) (C, DS, A)/C/0 Assets/Pasted image 20251021163250.png",
+    "G3 (28-32) (GA, EM, DM) /EM/5 Fundamentals/0 Assets/Pasted image 20251014160825 (Copy).png",
+    "G3 (28-32) (GA, EM, DM) /EM/5 Fundamentals/0 Assets/Pasted image 20251014160825.png",
+    "G3 (28-32) (GA, EM, DM) /EM/1 LA/0 Assets/Pasted image 20251014115051.png",
+    "G3 (28-32) (GA, EM, DM) /EM/1 LA/0 Assets/Pasted image 20251014114629.png",
+    "0 Assets/Pasted image 20251014115122.png",
+    "G4 (17-20) (C, DS, A)/DAA/0 Assets/Untitled",
+    "G4 (17-20) (C, DS, A)/DAA/2 Design Strategies/2 Brute Force",
+    "G4 (17-20) (C, DS, A)/DAA/2 Design Strategies/1 Transform and Conquer",
+    "G4 (17-20) (C, DS, A)/DAA/4 Important Algorithms",
+    "G4 (17-20) (C, DS, A)/Cpp",
+    "G1 (12-15) (DL, COA)/COA/IO",
+    "G1 (12-15) (DL, COA)/COA/Memory",
+    "Untitled.canvas",
+    "Info/Calculator.canvas",
+    "Test.canvas"
+  ]
+}
