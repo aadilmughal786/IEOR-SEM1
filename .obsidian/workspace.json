@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca0ca5fbb4b8a90b",
+        "id": "5055e3d3d7eceb72",
         "type": "tabs",
         "children": [
           {
-            "id": "194b88a5d106121d",
+            "id": "2f12d21d08a037bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PSP1 (IE 621)/Week 2 - Continuity of probability & Independence.md",
+                "file": "PSP1 (IE 621)/Week 7 - Central Limit Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2 - Continuity of probability & Independence"
+              "title": "Week 7 - Central Limit Theorem"
             }
           }
         ]
@@ -180,10 +180,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "194b88a5d106121d",
+  "active": "2f12d21d08a037bb",
   "lastOpenFiles": [
-    "PSP1 (IE 621)/Week 1 - Introduction to Probability Theory.md",
+    "PSP1 (IE 621)/Week 3 - Random Variables.md",
+    "PSP1 (IE 621)/Week 4 - Discrete Random Variables.md",
+    "PSP1 (IE 621)/Week 5 - Continuous Random Variables.md",
+    "PSP1 (IE 621)/Week 6 - Functions of Random Variables.md",
+    "PSP1 (IE 621)/Week 7 - Central Limit Theorem.md",
     "PSP1 (IE 621)/Week 2 - Continuity of probability & Independence.md",
+    "PSP1 (IE 621)/Week 1 - Introduction to Probability Theory.md",
     "PSP1 (IE 621)/0 Assets",
     "PSP1 (IE 621)",
     "MCL (IE 507)",
@@ -210,11 +215,6 @@
     "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Direction Sense.md",
     "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Dice.md",
     "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/Cube.md",
-    "G3 (28-32) (GA, EM, DM) /GA/Spatial Aptitude/0 Intro.md",
-    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Surface Area and Volume - 3D.md",
-    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Perimeter and Area - 2D.md",
-    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Data Interpretation.md",
-    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Race.md",
     "G1 (12-15) (DL, COA)/COA/0 Assets/Pasted image 20251021164712.png",
     "G1 (12-15) (DL, COA)/COA/0 Assets/Pasted image 20251021164223.png",
     "0 Assets/Pasted image 20251021163314.png",
