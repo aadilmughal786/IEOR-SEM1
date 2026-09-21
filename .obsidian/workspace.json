@@ -11,10 +11,14 @@
             "id": "194b88a5d106121d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PSP1 (IE 621)/Week 2 - Continuity of probability & Independence.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week 2 - Continuity of probability & Independence"
             }
           }
         ]
@@ -86,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 200
   },
   "right": {
     "id": "f965a766777844b2",
@@ -164,6 +168,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -174,8 +180,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "12630355770d3cf8",
+  "active": "194b88a5d106121d",
   "lastOpenFiles": [
+    "PSP1 (IE 621)/Week 1 - Introduction to Probability Theory.md",
+    "PSP1 (IE 621)/Week 2 - Continuity of probability & Independence.md",
+    "PSP1 (IE 621)/0 Assets",
+    "PSP1 (IE 621)",
     "MCL (IE 507)",
     "PSP (IE 621)",
     "SMA (IE 630)",
@@ -205,7 +215,6 @@
     "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Perimeter and Area - 2D.md",
     "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Data Interpretation.md",
     "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Race.md",
-    "G3 (28-32) (GA, EM, DM) /GA/Quantitative Aptitude/G3/Time & Distance.md",
     "G1 (12-15) (DL, COA)/COA/0 Assets/Pasted image 20251021164712.png",
     "G1 (12-15) (DL, COA)/COA/0 Assets/Pasted image 20251021164223.png",
     "0 Assets/Pasted image 20251021163314.png",
@@ -219,9 +228,6 @@
     "G4 (17-20) (C, DS, A)/DAA/2 Design Strategies/2 Brute Force",
     "G4 (17-20) (C, DS, A)/DAA/2 Design Strategies/1 Transform and Conquer",
     "G4 (17-20) (C, DS, A)/DAA/4 Important Algorithms",
-    "G4 (17-20) (C, DS, A)/Cpp",
-    "G1 (12-15) (DL, COA)/COA/IO",
-    "G1 (12-15) (DL, COA)/COA/Memory",
     "Untitled.canvas",
     "Info/Calculator.canvas",
     "Test.canvas"
