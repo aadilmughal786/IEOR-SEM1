@@ -1770,6 +1770,8 @@
 > >
 > > but single quotes are commonly used in introductory MATLAB code.
 >
+>---
+>
 > > [!important]- Plot Line Styles and Colors
 > > MATLAB allows you to specify how a curve should look.
 > >
@@ -1839,6 +1841,8 @@
 > > - red
 > > - dashed
 > > - circle markers
+>
+>---
 >
 > > [!important]- Plotting Multiple Curves
 > > MATLAB allows multiple curves to be plotted in a single `plot()` command.
@@ -1948,6 +1952,8 @@
 > > hold off;
 > > ```
 >
+>---
+>
 > > [!important]- Vectorized Function Evaluation
 > > Suppose:
 > >
@@ -2047,6 +2053,8 @@
 > > $$
 > >
 > > but `linspace()` handles this automatically.
+>
+>---
 >
 > > [!important]- Exercise 4 — First Function
 > > The first function is:
@@ -2181,6 +2189,8 @@
 > > MATLAB can then be used to verify the result numerically.
 > >
 > > For more complicated functions, numerical methods such as root finding can be used.
+>
+>---
 >
 > > [!abstract]- Exporting a Figure as PDF
 > > MATLAB figures can be exported for use in reports.
@@ -2335,6 +2345,8 @@
 > >
 > > These provide the coordinate vectors needed by `contour()`.
 >
+>---
+>
 > > [!warning]- Common Plotting Mistakes
 > > - Using `x^2` instead of `x.^2` when `x` is a vector.
 > >
@@ -2466,6 +2478,8 @@
 > > n\longrightarrow\boxed{\text{fact}}\longrightarrow f
 > > $$
 >
+>---
+>
 > > [!important]- Input Arguments
 > > Input arguments are written inside parentheses.
 > >
@@ -2581,6 +2595,8 @@
 > >
 > > In practice, simply omitting the output variable is cleaner.
 >
+>---
+>
 > > [!abstract]- Function Body
 > > The function body contains the actual computation.
 > >
@@ -2612,7 +2628,7 @@
 > > end
 > > ```
 > >
-> > `temp` belongs to the function's workspace.
+> > `temp` belongs to the function's **workspace**.
 > >
 > > The function receives values through its inputs and returns values through its outputs.
 > >
@@ -2639,6 +2655,8 @@
 > > MATLAB passes the value into the function.
 > >
 > > Therefore, the names do not need to match.
+>
+>---
 >
 > > [!important]- The `if` Statement
 > > MATLAB uses `if` for conditional execution.
@@ -2821,6 +2839,8 @@
 > >      Output
 > > ```
 >
+>---
+>
 > > [!abstract]- Complex Numbers in MATLAB
 > > MATLAB uses `i` or `j` for the imaginary unit:
 > >
@@ -2885,6 +2905,8 @@
 > > i*sqrt(-Det)
 > > ```
 >
+>---
+>
 > > [!abstract]- `disp()`
 > > `disp()` displays text or values in the Command Window.
 > >
@@ -2943,6 +2965,8 @@
 > > ```
 > >
 > > use square brackets.
+>
+>---
 >
 > > [!abstract]- MatrixSwap: Problem Structure
 > > Exercise 5B asks for a function that:
@@ -3039,6 +3063,8 @@
 > > ```
 > >
 > > If `a` or `b` is outside this range, MATLAB will generate an indexing error.
+>
+>---
 >
 > > [!warning]- Common Function Errors
 > > - Function file name does not match the primary function name.
@@ -3142,6 +3168,8 @@
 > > A(a,:) = A(b,:);
 > > A(b,:) = temp;
 > > ```
+
+---
 
 > [!important]- MATLAB Matrix Construction, Loops & Subplots
 > > [!important]- Exercise 6: ArrowMatrix
@@ -3357,6 +3385,8 @@
 > >
 > > and the selected matrix portion is also $n\times1$.
 >
+>---
+>
 > > [!important]- Indexing a Range
 > > MATLAB allows ranges inside matrix indexing.
 > >
@@ -3412,6 +3442,8 @@
 > > The general lesson is:
 > >
 > > **When MATLAB can perform an operation on an entire vector/matrix, prefer that over manually looping through elements.**
+>
+>---
 >
 > > [!important]- `for` Loop
 > > MATLAB's `for` loop repeats a block of code for each value in a sequence.
@@ -3505,6 +3537,8 @@
 > >
 > > because `zeros(5)` creates a $5\times5$ matrix.
 >
+>---
+>
 > > [!important]- `for` Loop with a Decreasing Sequence
 > > MATLAB sequences can have a negative step.
 > >
@@ -3542,6 +3576,8 @@
 > > ```matlab
 > > for i = 20:-2:2
 > > ```
+>
+>---
 >
 > > [!important]- `while` Loop
 > > A `while` loop repeats as long as a condition is true.
@@ -3594,6 +3630,8 @@
 > >     i = i + 1;
 > > end
 > > ```
+>
+>---
 >
 > > [!abstract]- `subplot`
 > > `subplot()` divides one figure window into multiple smaller plotting areas.
@@ -3676,6 +3714,8 @@
 > > ```
 > >
 > > Each `subplot()` selects a different region of the same figure.
+>
+>---
 >
 > > [!abstract]- `axis`
 > > The `axis()` command controls the visible plotting limits.
