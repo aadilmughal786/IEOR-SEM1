@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MCL (IE 507)/Lab 1.md",
+                "file": "MCL (IE 507)/Lab 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab 1"
+              "title": "Lab 2"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "fa39e80743c3cca5",
   "lastOpenFiles": [
-    "MOT/Temp.md",
     "MCL (IE 507)/Lab 1.md",
+    "MOT/Temp.md",
     "MOT",
     "MCL (IE 507)/Lab 2.md",
     "MCL (IE 507)/Lab 6.md",

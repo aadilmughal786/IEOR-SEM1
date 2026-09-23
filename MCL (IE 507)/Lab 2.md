@@ -18,7 +18,7 @@
 > > - average
 > > - standard deviation
 > >
-> > Importantly, the exercise says that MATLAB's built-in functions should **not** be used for these calculations, except `size()` for finding the size. :contentReference[oaicite:3]{index=3}
+> > Importantly, the exercise says that MATLAB's built-in functions should **not** be used for these calculations, except `size()` for finding the size.
 >
 > > [!abstract]- `size()` for a Column Vector
 > > Suppose:
@@ -206,7 +206,7 @@
 > > Move to next value
 > > ```
 > >
-> > This is the logic that Exercise 1(b) specifically asks you to explain in detail. :contentReference[oaicite:4]{index=4}
+> > This is the logic that Exercise 1(b) specifically asks you to explain in detail. 
 >
 > > [!abstract]- Nested Loops
 > > Frequency counting naturally leads to a **nested loop**.
@@ -317,7 +317,7 @@
 > >
 > > MATLAB's `std()` has a convention that depends on its normalization argument/version, so when the assignment says to calculate standard deviation manually, we must use the convention specified by the course/instructor if one is given.
 > >
-> > The Lab 2 PDF does not specify which denominator should be used. :contentReference[oaicite:5]{index=5}
+> > The Lab 2 PDF does not specify which denominator should be used.
 >
 > > [!important]- Manual Standard Deviation Using a Loop
 > > Once the average has been calculated:
@@ -382,7 +382,7 @@
 > >
 > > This gives us information about the empirical distribution of the data.
 > >
-> > Exercise 1 asks you to use three supplied vectors and reason about whether one appears uniformly distributed and what distributions may describe the others. :contentReference[oaicite:6]{index=6}
+> > Exercise 1 asks you to use three supplied vectors and reason about whether one appears uniformly distributed and what distributions may describe the others.
 >
 > > [!important]- Histogram
 > > A histogram groups numerical observations into intervals called bins and displays their frequencies.
@@ -453,7 +453,7 @@
 > > ex1c
 > > ```
 > >
-> > The lab warns that these files may be large and that loading the next file can overwrite the previous value of `a`. :contentReference[oaicite:7]{index=7}
+> > The lab warns that these files may be large and that loading the next file can overwrite the previous value of `a`.
 >
 > > [!warning]- Important Data-File Workflow
 > > If you run:
@@ -534,7 +534,7 @@
 > > counts occurrences of each possible integer.
 >
 > > [!warning]- Exercise 1 Restrictions
-> > The assignment specifically says not to use built-in MATLAB functions for the requested calculations, except `size()` for finding the size. :contentReference[oaicite:8]{index=8}
+> > The assignment specifically says not to use built-in MATLAB functions for the requested calculations, except `size()` for finding the size.
 > >
 > > Therefore, for Exercise 1 we should **not simply write**:
 > >
@@ -578,7 +578,7 @@
 > > visualize distribution
 > > ```
 
-> [!important]- Loops, Statistics & Histograms - 2
+> [!important]- Statistics, Loops and Histograms - 2
 >
 > > [!abstract]- For Loop
 > > A `for` loop repeats a block of code a known number of times.
@@ -601,7 +601,7 @@
 > >
 > > $$1,2,3,\ldots,n$$
 > >
-> > In Lab 2, `for` loops are important because Exercises 1 and 2 require calculations using loops. :contentReference[oaicite:1]{index=1}
+> > In Lab 2, `for` loops are important because Exercises 1 and 2 require calculations using loops.
 >
 > > [!abstract]- Looping Through a Vector
 > > Suppose:
@@ -682,7 +682,7 @@
 > > ```
 >
 > > [!abstract]- Finding the Minimum
-> > Exercise 1 does not allow built-in MATLAB calculation functions except `size`. :contentReference[oaicite:2]{index=2}
+> > Exercise 1 does not allow built-in MATLAB calculation functions except `size`. 
 > >
 > > Therefore, instead of:
 > >
@@ -737,7 +737,7 @@
 > > ```
 >
 > > [!abstract]- Frequency Counting
-> > Exercise 1 asks for the number of times **each element between the maximum and minimum occurs**. :contentReference[oaicite:3]{index=3}
+> > Exercise 1 asks for the number of times **each element between the maximum and minimum occurs**. 
 > >
 > > Suppose:
 > >
@@ -884,7 +884,7 @@
 > >
 > > $$\sum_{i=1}^{n}(x_i-\bar{x})^2$$
 > >
-> > The PDF does not specify whether the denominator should be $n$ or $n-1$. We should therefore follow the convention expected by your course when implementing Exercise 1. :contentReference[oaicite:4]{index=4}
+> > The PDF does not specify whether the denominator should be $n$ or $n-1$. We should therefore follow the convention expected by your course when implementing Exercise 1. 
 >
 > > [!abstract]- Standard Deviation in MATLAB
 > > Once the mean has been calculated:
@@ -957,7 +957,7 @@
 > >
 > > A histogram helps us visually understand the distribution of the observed data.
 > >
-> > Exercise 2 specifically asks you to use `hist()` to comment on the distribution of `b`. :contentReference[oaicite:5]{index=5}
+> > Exercise 2 specifically asks you to use `hist()` to comment on the distribution of `b`. 
 >
 > > [!abstract]- Histogram vs Distribution
 > > A **distribution** is the underlying mathematical description of how values occur.
@@ -991,7 +991,7 @@
 > >
 > > means the values lie between $20$ and $40$ with constant density.
 > >
-> > Exercise 4 states that both demand and supply are uniformly distributed between $20$ and $40$ and are independent. :contentReference[oaicite:6]{index=6}
+> > Exercise 4 states that both demand and supply are uniformly distributed between $20$ and $40$ and are independent.
 >
 > > [!abstract]- Recognizing a Uniform Histogram
 > > For a sufficiently large sample from a uniform distribution, the histogram should be approximately flat across the interval.
@@ -1029,7 +1029,7 @@
 > >
 > > Therefore, the second histogram generally gives a much clearer picture of the underlying distribution.
 > >
-> > Exercise 5 specifically asks you to compare $n=10$, $1000$, and $1,000,000$. :contentReference[oaicite:7]{index=7}
+> > Exercise 5 specifically asks you to compare $n=10$, $1000$, and $1,000,000$.
 >
 > > [!abstract]- Loading the Exercise Data
 > > Exercise 1 provides files such as:
@@ -1056,7 +1056,7 @@
 > >
 > > runs your function on that data.
 > >
-> > The lab warns that loading the next dataset can overwrite `a`, so analyze one dataset before loading another. :contentReference[oaicite:8]{index=8}
+> > The lab warns that loading the next dataset can overwrite `a`, so analyze one dataset before loading another.
 >
 > > [!important]- Core Programming Patterns
 > > The main patterns used throughout Lab 2 are:
@@ -1113,7 +1113,7 @@
 > > - average
 > > - standard deviation
 > >
-> > Built-in MATLAB functions cannot be used for the calculations, except `size`. :contentReference[oaicite:9]{index=9}
+> > Built-in MATLAB functions cannot be used for the calculations, except `size`. 
 > >
 > > So before solving Exercise 1, you should understand:
 > >
@@ -1225,7 +1225,7 @@
 > > One value remains unused.
 >
 > > [!warning]- Incomplete Final Block
-> > Exercise 2 explicitly says that if fewer than $m$ elements remain, those elements are **discarded**. :contentReference[oaicite:1]{index=1}
+> > Exercise 2 explicitly says that if fewer than $m$ elements remain, those elements are **discarded**. 
 > >
 > > Example:
 > >
@@ -1384,7 +1384,7 @@
 > > This is generally cleaner than repeatedly growing a vector inside a loop.
 >
 > > [!abstract]- Minimum and Maximum of b
-> > Exercise 2 asks for the minimum and maximum of the resulting vector `b`. :contentReference[oaicite:2]{index=2}
+> > Exercise 2 asks for the minimum and maximum of the resulting vector `b`.
 > >
 > > The same manual minimum/maximum logic from Exercise 1 can be reused.
 > >
@@ -1442,7 +1442,7 @@
 > > Then apply the standard-deviation convention expected by the course.
 >
 > > [!abstract]- What Happens When m Changes?
-> > Exercise 2 asks you to vary `m` and observe how the five reported quantities change. :contentReference[oaicite:3]{index=3}
+> > Exercise 2 asks you to vary `m` and observe how the five reported quantities change. 
 > >
 > > The five quantities are:
 > >
@@ -1497,7 +1497,7 @@
 > > Therefore, increasing $m$ generally produces smoother block averages.
 >
 > > [!abstract]- Histogram of b
-> > Exercise 2 asks you to use a histogram to comment on the distribution of `b`. :contentReference[oaicite:4]{index=4}
+> > Exercise 2 asks you to use a histogram to comment on the distribution of `b`. 
 > >
 > > Basic syntax:
 > >
@@ -1572,7 +1572,7 @@
 > > histogram of block averages
 > > ```
 > >
-> > The exercise asks you to create `ex2fun(a,m)`, calculate the requested statistics of `b`, use `m=4` with `ex2a.m`, examine its distribution, and vary `m` to observe how the statistics change. :contentReference[oaicite:5]{index=5}
+> > The exercise asks you to create `ex2fun(a,m)`, calculate the requested statistics of `b`, use `m=4` with `ex2a.m`, examine its distribution, and vary `m` to observe how the statistics change.
 
 ---
 
@@ -1598,7 +1598,7 @@
 > > standard deviation
 > > ```
 > >
-> > The lab specifically says that built-in MATLAB functions must not be used for calculations, except `size`. :contentReference[oaicite:1]{index=1}
+> > The lab specifically says that built-in MATLAB functions must not be used for calculations, except `size`.
 >
 > > [!abstract]- Overall Strategy
 > > We can divide the problem into independent tasks:
@@ -1709,7 +1709,7 @@
 > > min(a)
 > > ```
 > >
-> > because Exercise 1 prohibits built-in calculation functions. :contentReference[oaicite:2]{index=2}
+> > because Exercise 1 prohibits built-in calculation functions.
 > >
 > > Instead, use the first element as the initial candidate:
 > >
@@ -1952,7 +1952,7 @@
 > > mean(a)
 > > ```
 > >
-> > because of the Exercise 1 restriction. :contentReference[oaicite:3]{index=3}
+> > because of the Exercise 1 restriction.
 >
 > > [!abstract]- Calculate Standard Deviation
 > > Once the average is known, calculate the squared deviations:
@@ -1974,7 +1974,7 @@
 > >
 > > $$\text{sumsq}=\sum_{i=1}^{n}(a_i-\bar{x})^2$$
 > >
-> > The PDF does not specify whether to divide by $n$ or $n-1$, so we should use the convention expected by your instructor/course. :contentReference[oaicite:4]{index=4}
+> > The PDF does not specify whether to divide by $n$ or $n-1$, so we should use the convention expected by your instructor/course.
 >
 > > [!abstract]- Displaying the Results
 > > We can use `disp()`:
@@ -2252,7 +2252,7 @@
 > > end
 > > ```
 > >
-> > The PDF does not specify whether the course expects division by $n$ or $n-1$. Therefore, that convention must come from the course/instructor; it should not be assumed from the lab statement alone. :contentReference[oaicite:1]{index=1}
+> > The PDF does not specify whether the course expects division by $n$ or $n-1$. Therefore, that convention must come from the course/instructor; it should not be assumed from the lab statement alone.
 > >
 > > For example, if the course uses the population definition:
 > >
@@ -2415,7 +2415,7 @@
 > > The lab describes `a` as a column vector of integers but does not explicitly discuss an empty input, so we do not need to add extra handling unless your instructor expects it.
 >
 > > [!important]- Apply It to ex1a, ex1b and ex1c
-> > The lab provides `ex1a`, `ex1b`, and `ex1c` files. Running one creates the variable `a`. :contentReference[oaicite:2]{index=2}
+> > The lab provides `ex1a`, `ex1b`, and `ex1c` files. Running one creates the variable `a`.
 > >
 > > For example:
 > >
@@ -2438,7 +2438,7 @@
 > > ex1fun(a)
 > > ```
 > >
-> > Be careful: loading the next file may overwrite the existing variable `a`. The lab explicitly warns about this. :contentReference[oaicite:3]{index=3}
+> > Be careful: loading the next file may overwrite the existing variable `a`. The lab explicitly warns about this.
 >
 > > [!abstract]- Exercise 1 Report Questions
 > > After running the three datasets, the lab also asks you to reason about their distributions:
@@ -2450,7 +2450,7 @@
 > > What are the likely distributions of ex1b and ex1c?
 > > ```
 > >
-> > These questions should be answered using the observed data and the histograms/statistics rather than guessing beforehand. :contentReference[oaicite:4]{index=4}
+> > These questions should be answered using the observed data and the histograms/statistics rather than guessing beforehand.
 
 > [!important]- Exercise 2 — Implementing ex2fun(a,m)
 >
@@ -2465,7 +2465,7 @@
 > >
 > > Each element of `b` is the average of the next `m` elements of `a`.
 > >
-> > If fewer than `m` elements remain, those elements are discarded. :contentReference[oaicite:0]{index=0}
+> > If fewer than `m` elements remain, those elements are discarded.
 >
 > > [!example]- Simple Example
 > > Suppose:
@@ -2658,7 +2658,7 @@
 > >
 > > Then apply the standard-deviation convention required by the course.
 > >
-> > The Lab 2 PDF does not specify whether the denominator should be $n_b$ or $n_b-1$. :contentReference[oaicite:1]{index=1}
+> > The Lab 2 PDF does not specify whether the denominator should be $n_b$ or $n_b-1$.
 >
 > > [!abstract]- Display the Results
 > > The exercise asks for:
@@ -2778,8 +2778,6 @@
 > >
 > >     m = 4;
 > >
-> > :contentReference[oaicite:2]{index=2}
-> >
 > > After running `ex2a.m` and obtaining `a`, run:
 > >
 > >     ex2fun(a,4)
@@ -2787,7 +2785,7 @@
 > > Record the five requested statistics.
 >
 > > [!abstract]- Histogram of b
-> > The lab asks you to use `hist()` to comment on the distribution of `b`. :contentReference[oaicite:3]{index=3}
+> > The lab asks you to use `hist()` to comment on the distribution of `b`.
 > >
 > >     hist(b)
 > >
@@ -2804,7 +2802,7 @@
 > > The conclusion should be based on the actual histogram produced from `ex2a`.
 >
 > > [!abstract]- Varying m
-> > The lab asks you to vary `m` and comment on how the five quantities change. :contentReference[oaicite:4]{index=4}
+> > The lab asks you to vary `m` and comment on how the five quantities change.
 > >
 > > For example:
 > >
@@ -2892,7 +2890,7 @@
 > >
 > > $$₹23/\text{litre}$$
 > >
-> > No milk remains at the end of the day in the first part of the exercise. :contentReference[oaicite:1]{index=1}
+> > No milk remains at the end of the day in the first part of the exercise.
 >
 > > [!abstract]- Demand and Supply
 > > The lab provides two data files:
@@ -3220,7 +3218,7 @@
 > > This distinction is important when interpreting the results.
 >
 > > [!abstract]- Statistical Analysis of Profit
-> > The lab asks you to calculate important statistical measures and make observations about the daily profit. :contentReference[oaicite:2]{index=2}
+> > The lab asks you to calculate important statistical measures and make observations about the daily profit.
 > >
 > > Depending on what has been covered in your course, useful measures may include:
 > >
@@ -3260,7 +3258,7 @@
 > > milk can be stored for 2 days
 > > ```
 > >
-> > Any milk still unsold after 2 days is sold to the confectioner at ₹23/litre. :contentReference[oaicite:3]{index=3}
+> > Any milk still unsold after 2 days is sold to the confectioner at ₹23/litre.
 > >
 > > This changes the problem because today's excess supply can potentially satisfy tomorrow's demand.
 >
@@ -3317,7 +3315,7 @@
 > > This is different from the first part because the current day's decision depends on previous days.
 >
 > > [!warning]- Storage Requires Careful Interpretation
-> > The PDF says milk can be stored for 2 days and unsold milk after 2 days is sold at ₹23. :contentReference[oaicite:4]{index=4}
+> > The PDF says milk can be stored for 2 days and unsold milk after 2 days is sold at ₹23.
 > >
 > > However, the exact intended inventory-aging implementation is not fully specified in the excerpt.
 > >
@@ -3374,7 +3372,7 @@
 > >     dem
 > >     supp
 > >
-> > The data represents 730 days. :contentReference[oaicite:1]{index=1}
+> > The data represents 730 days.
 > >
 > > After loading the data, check the number of observations:
 > >
@@ -3615,7 +3613,7 @@
 > >
 > >     size(profit)
 > >
-> > According to the lab, the data covers 730 days, so the expected profit array should contain 730 daily values. :contentReference[oaicite:2]{index=2}
+> > According to the lab, the data covers 730 days, so the expected profit array should contain 730 daily values.
 >
 > > [!abstract]- Calculate the Mean Profit
 > > If we want the average daily profit manually:
@@ -3678,7 +3676,7 @@
 > >
 > >     hist(profit)
 > >
-> > A useful plot should have appropriate labels and a title because the general Lab 2 instructions require proper axis labels, legends, and plot titles for figures. :contentReference[oaicite:3]{index=3}
+> > A useful plot should have appropriate labels and a title because the general Lab 2 instructions require proper axis labels, legends, and plot titles for figures.
 > >
 > > For example:
 > >
@@ -3687,7 +3685,7 @@
 > >     title('Distribution of Daily Profit')
 >
 > > [!abstract]- What to Observe
-> > The lab asks for important statistical measures and observations. :contentReference[oaicite:4]{index=4}
+> > The lab asks for important statistical measures and observations.
 > >
 > > After calculating the statistics and viewing the histogram, examine:
 > >
@@ -3904,7 +3902,7 @@
 > >
 > > However, with storage there is an important modeling issue: the PDF does not explicitly state how the cost of stored milk should be accounted for when it is sold on a later day.
 > >
-> > The supplied lab statement tells us the selling prices and storage rule, but does not provide a detailed accounting convention for inventory carried between days. :contentReference[oaicite:1]{index=1}
+> > The supplied lab statement tells us the selling prices and storage rule, but does not provide a detailed accounting convention for inventory carried between days.
 >
 > > [!warning]- Do Not Assume the Missing Inventory Convention
 > > The PDF says:
@@ -4041,12 +4039,12 @@
 > >     maximum profit
 > >     standard deviation
 > >
-> > The lab asks you to compare the statistical results of the two cases. :contentReference[oaicite:2]{index=2}
+> > The lab asks you to compare the statistical results of the two cases.
 >
 > > [!important]- What We Can Code From the PDF
 > > The first part can be implemented completely from the supplied statement because its profit rules are explicit.
 > >
-> > For the two-day-storage part, the PDF gives the storage duration and final confectioner sale rule, but does not fully specify the inventory-accounting convention. :contentReference[oaicite:3]{index=3}
+> > For the two-day-storage part, the PDF gives the storage duration and final confectioner sale rule, but does not fully specify the inventory-accounting convention.
 > >
 > > Therefore, before writing the final storage code, we should use any additional lecture material or instructions from your instructor if they contain the missing convention.
 >
@@ -4446,7 +4444,7 @@
 > > - comparing the resulting distributions
 > > - discarding exponential values below $0.5$
 > >
-> > The exercise asks for plots, proper labels/title/legend, and comments on the observed distributions. :contentReference[oaicite:1]{index=1}
+> > The exercise asks for plots, proper labels/title/legend, and comments on the observed distributions.
 >
 > > [!abstract]- Testing `rand()`
 > >
@@ -4475,7 +4473,7 @@
 > >     n = 1000
 > >     n = 1000000
 > >
-> > The purpose is to observe how the histogram changes as the sample size increases. :contentReference[oaicite:2]{index=2}
+> > The purpose is to observe how the histogram changes as the sample size increases.
 >
 > > [!abstract]- Sample Size and Histogram
 > >
@@ -4515,7 +4513,7 @@
 > >
 > >     hist(x)
 > >
-> > The exercise specifically asks you to use histograms and comment on uniformity. :contentReference[oaicite:3]{index=3}
+> > The exercise specifically asks you to use histograms and comment on uniformity.
 >
 > > [!abstract]- Uniform Distribution
 > >
@@ -4537,7 +4535,7 @@
 > >
 > >     exprnd()
 > >
-> > The purpose is to observe how the histogram differs from the histogram obtained using `rand()`. :contentReference[oaicite:4]{index=4}
+> > The purpose is to observe how the histogram differs from the histogram obtained using `rand()`.
 > >
 > > Unlike `rand()`, `exprnd()` generates values according to an exponential distribution.
 > >
@@ -4563,7 +4561,7 @@
 > >
 > > Its histogram has a different shape and is concentrated more heavily near smaller values.
 > >
-> > The exercise asks you to explain these differences based on the observed plots. :contentReference[oaicite:5]{index=5}
+> > The exercise asks you to explain these differences based on the observed plots.
 >
 > > [!abstract]- Discarding Values Below 0.5
 > >
@@ -4601,7 +4599,7 @@
 > > n=50000
 > > $$
 > >
-> > and asks you to report the fraction of generated values that were discarded. :contentReference[oaicite:6]{index=6}
+> > and asks you to report the fraction of generated values that were discarded.
 > >
 > > If:
 > >
@@ -4707,7 +4705,7 @@
 > >     ylabel('Frequency')
 > >     title('Histogram of Retained Values')
 > >
-> > The lab instructions require proper plot labels and titles, and the exercise asks you to upload the plots. :contentReference[oaicite:7]{index=7}
+> > The lab instructions require proper plot labels and titles, and the exercise asks you to upload the plots.
 >
 > > [!abstract]- What You Should Comment On
 > >
@@ -4715,7 +4713,7 @@
 > >
 > > For the `exprnd()` experiment, comment on how its histogram differs from the uniform histogram.
 > >
-> > For the final experiment, comment on the distribution of the retained and shifted values and use appropriate statistical/distribution terminology, as requested by the exercise. :contentReference[oaicite:8]{index=8}
+> > For the final experiment, comment on the distribution of the retained and shifted values and use appropriate statistical/distribution terminology, as requested by the exercise.
 >
 > > [!abstract]- Common Mistakes
 > >
